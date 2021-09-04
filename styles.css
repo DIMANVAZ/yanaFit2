@@ -1,0 +1,16 @@
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+img{
+    width:70%;
+}
+.disclaimer{
+    width:70%;
+    /*border: 5px solid grey;*/
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
