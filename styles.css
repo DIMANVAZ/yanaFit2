@@ -1,6 +1,10 @@
+/**{*/
+/*    margin:0;*/
+/*    padding:0;*/
+/*}*/
+
 *{
-    margin:0;
-    padding:0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 p{
@@ -9,4 +13,12 @@ p{
 img{
     width: 100%;
     height: auto;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+.list-header{
+    color: #89B2C4;
 }
