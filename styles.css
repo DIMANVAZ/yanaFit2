@@ -1,6 +1,8 @@
 *{
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 img{
@@ -46,17 +48,12 @@ ul{
     line-height: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.button a{
-    text-decoration: none;
-    color: black;
     font-weight: 600;
 }
 
 .button:hover{
-    box-shadow: 0 0 4px 2px lawngreen;
+    box-shadow: 0 0 4px 2px #56798D;
 }
 .button:active{
-    box-shadow: inset 0 0 4px 2px lawngreen;
+    box-shadow: inset 0 0 4px 2px #56798D;
 }
