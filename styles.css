@@ -76,3 +76,8 @@ li{
 hr{
     margin: 1% auto;
 }
+
+.map{
+    display: inline-block;
+    border: 2px solid #89B2C4;
+}
