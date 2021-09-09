@@ -5,9 +5,10 @@
     padding: 0;
 }
 
-img{
-    width: 100%;
+#mainPhoto{/*img*/
+    width: 50%;
     height: auto;
+    display: block;
 }
 
 ul{
@@ -69,8 +70,27 @@ li{
 .text-covering-div{
     width:95%;
     margin: 0 auto;
-    /*border: 2px solid red;*/
     padding: 1% 5%;
+}
+
+.mainImg-covering-div{
+    width:95%;
+    margin: 0 auto;
+    padding: 1% 5%;
+}
+
+@media only screen and (max-width:767px){
+    .mainImg-covering-div{
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+    #mainPhoto{
+        margin:0;
+        padding:0;
+        width:100%;
+        height: auto;
+    }
 }
 
 hr{
@@ -80,4 +100,20 @@ hr{
 .map{
     display: inline-block;
     border: 2px solid #89B2C4;
+}
+
+.small-image{
+    width:25%;
+    height: auto;
+    border: 2px solid #89B2C4;
+}
+
+.small-image:hover{
+    width:100%;
+    height:auto;
+    border: 2px solid #56798D;
+}
+
+#gallery{
+    text-align: center;
 }
