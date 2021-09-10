@@ -5,6 +5,14 @@
     padding: 0;
 }
 
+/*экспериментальный фоновый кусок*/
+body{
+    background-image: url("./media/background/opa25.png");
+    background-repeat: repeat;
+    background-size: 250px 250px;
+}
+/*конец - экспериментальный фоновый кусок*/
+
 #mainPhoto{/*img*/
     width: 50%;
     height: auto;
@@ -90,6 +98,12 @@ li{
         padding:0;
         width:100%;
         height: auto;
+    }
+
+    body{
+        background-image: url("./media/background/opa16.png");
+        background-repeat: repeat;
+        background-size: 250px 250px;
     }
 }
 
